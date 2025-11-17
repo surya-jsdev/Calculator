@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 55%, rgba(0, 212, 255, 1) 100%);
+    ;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    background-color: rgba(255, 171, 2, 0.659);
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.13);
+    padding: 12px;
+    border-radius: 15px;
+}
+
+.container input {
+    margin: 20px;
+    padding: 15px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+input:focus {
+    box-shadow: 0 0 10px 10px rgba(128, 128, 128, 0.132);
+    outline: none;
+}
+
+.btn01 {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.btn01 button {
+    padding: 20px;
+    width: 60px;
+    background-color:#000;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 px 2px rgba(0, 0, 0, 0.429);
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+button:hover {
+    box-shadow: 0 0 20px #282929e4,
+        0 0 30px #62626360,
+        0 0 30px #030dcd40;
+}
+
+.btn01 :nth-child(4) {
+    color: orange;
+    font-size: 22px;
+}
+
+.btn01 :nth-child(8) {
+    color: orange;
+    font-size: 22px;
+}
+
+.btn01 :nth-child(12) {
+    color: orange;
+    font-size: 22px;
+}
+
+.btn01 :nth-child(16) {
+    color: orange;
+    font-size: 22px;
+}
+
+.btn01 :nth-child(17) {
+    color: orange;
+    font-size: 22px;
+}
